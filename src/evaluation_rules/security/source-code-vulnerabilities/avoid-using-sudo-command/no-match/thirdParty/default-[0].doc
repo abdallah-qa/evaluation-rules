@@ -1,0 +1,57 @@
+IP security: why the blockchain can’t replace a trusted third party
+Reading time: 8 min
+
+Last Updated on 25 July 2025
+One of the central rationales for blockchain was to create a decentralized and trustless system for maintaining a digital ledger of transactions. Today, we will focus on unravelling this original premise of blockchain as it applies to protecting intellectual property (IP). In other words, does blockchain eliminate the need for trusted third parties when it comes to protecting and proving IP ownership? Indeed, the promise of blockchain seemed limitless with the creation of bitcoin in 2008. It was soon followed by the launch of a thousand different cryptocurrencies. Corporations of all sizes, banks and governments all were eager to capitalize on the opportunity offered by this new technology.
+IP Security: Why The Blockchain Can't Replace A Trusted Third Party
+IP Security: Why The Blockchain Can't Replace A Trusted Third Party
+Table of contents
+Blockchain versus Trusted Intermediaries as models for IP protection
+So, now that the dust has settled, does the reality match the hype?
+
+At first, it seemed so. In early 2022, Bitcoin and other cryptocurrencies were worth a combined $3 trillion.[i] Stock exchanges such as Nasdaq and Australia Securities Exchange (ASX) were looking into integrating the digital ledger to track and clear trades. Major companies like Maersk, a shipping conglomerate, and Walmart, a US based multinational retail corporation, announced they’d be using the platform to manage supply chains.
+
+But then, FTX, a leading cryptocurrency exchange, imploded. Wintermute suffered a catastrophic hack.[ii] And seemingly overnight the entire DeFi (decentralized finance) platform was delegitimized. But even before this occurred, Nasdaq had announced that it would no longer be using blockchain for private securities trading. ASX followed suit in late 2022, quietly cancelling its plan to use blockchain technology and writing off around $168 million in losses.[iii] Walmart announced that it would be abandoning the blockchain in favor of a more traditional traceability system, and Maersk also declared it would be ending its blockchain experiment.[iv]
+
+So why the sudden about-face?
+
+Tim Bray, who previously worked for Amazon Web Services, explained in a blog post why Amazon decided not to integrate a blockchain of its own: “blockchain is a solution looking for a problem”.[v] In other words, Amazon had questions about its usefulness and how much the greater world really wanted zero-trust solutions. And given the above examples, they may have been on to something.
+
+Blockchain versus Trusted Intermediaries as models for IP protection
+While blockchain is often associated with cryptocurrencies, its underlying technology can be used for a variety of other purposes, including protecting intellectual property. However, there are compelling reasons why replacing trust intermediaries, such as a law firm or an escrow service, with blockchain technology is not always a good fit, especially when it involves protecting important business IP.
+
+Let’s first recall the differences between the two: Blockchain is a decentralized, distributed ledger technology that records and verifies changes to a shared digital history in a secure and tamper-proof manner. A trusted third party, on the other hand, is an entity that provides a service to verify and secure information. In the context of IP, a trusted third-party acts as a central repository to secure and verify the ownership and authenticity of digital assets such as software source code, music, videos, databases, or other forms of creative work.
+
+As digital IP is becoming increasingly important for business operations and valuable for growth and innovation, it is necessary to understand the implications of securing IP on the blockchain versus with a trusted third-party.
+
+1. Proving ownership rights
+The blockchain provides a secure and inalterable record, but can it verify the identity of the person or company making the record? In other words, today anyone can anonymously make a transaction or hash an element on the blockchain, so how can one be sure that the person making the record is the owner of the recorded materials (e.g., data, documents, code, etc.)? When it comes to protecting IP, proving ownership is essential.
+
+The short answer is that the blockchain, by itself, cannot prove the identity of a person making a record. To verify the identity of someone using the blockchain, one would need to either apply additional technologies or use a third-party provider. Moreover, in case of the former, the blockchain would depend solely on the reliability of these underlying verification technologies.
+
+In contrast, trusted intermediaries can verify the identity of the owner / holder of the rights as well as the integrity of the underlying digital assets. A trusted third party can confirm the identity of its clients and for greater certainty, each client may be made to legally certify that they are the rightful owners of the materials entrusted to the third party. Additionally, by using the same cryptographic algorithm as the blockchain (SHA 256 or SHA512), a trusted intermediary can ensure secure, forgery-proof transactions in the same manner as the blockchain.
+
+2. Legal recognition
+Traditional legal systems recognize and enforce contracts and agreements made with trusted third parties, whereas the enforceability of blockchain records is still an area of ongoing legal debate. In simple terms, it comes down to the fact that most rules of evidence across several law sectors (administrative, criminal, civil, etc.) do not yet address the treatment of records generated on a computer without human intervention.
+
+In Europe, legislation in this respect has been slow to come into force. But there are outliers, such as Italy and Switzerland, that have established a legal basis for blockchain technology in certain situations (e.g., smart contracts in Italy (Decree Law No. 135/2018 (Art. 8-ter)) and ledger-based securities in Switzerland (DLT Act 2021). In the context of IP, however, many jurisdictions still require that certain categories of intellectual property be registered with a government agency or other trusted third-party.
+
+Blockchain technologies raise novel legal challenges, which only legislators can properly address. Until then, it is far better to err on the side of caution by using a third-party provider whose legal basis has long been validated.
+
+3. Expert service
+Blockchain is a technology, but not a service, and it does not claim to be. This means that if a user loses their hash (i.e., the string of characters representing the transaction), access to their wallet (i.e., seed phrase, password), dies or becomes otherwise incapacitated – the proof is gone. There is no customer help line or email contact. There is no resetting of one’s password or duplicating a hash. The news is full of stories about people losing their password or misplacing their seed phrase and effectively losing out on millions. Using the blockchain means that the user is solely responsible; there is no backup.
+
+Putting in place a backup solution or safety net would require an additional tool or service. In this case, a user would need a storage service. This could be performed by the user themselves or a trusted third party. If the user relies on their own means of storage, they must ensure it is foolproof.
+
+In contrast, trusted third parties, such as software escrow providers, are in the business of providing service and expertise. They guarantee their services by having business continuity plans in place, having backup servers for their backup servers and if a user misplaces their password, the trusted third party will have a contingency plan. In the example of a software escrow, a trusted third party would rely on other legal proofs of ownership such as an ID card, company registration and other means to ensure that access to the escrowed materials is given to the sole owner only. They also have specialized knowledge and experience in intellectual property, can respond to queries, help resolve problems, and provide advice throughout the process.
+
+4. Trust and continuity
+At this point, you may be asking yourself, ‘well, why not just use a trusted third party who provides access to the blockchain as a model to protect IP?’ This question raises two important issues for IP protection: trustworthiness and continuity.
+
+As to the first, while the data on the blockchain is secure and can’t be altered, ultimately the security of the data is still reliant on the trustworthiness of the platform or start-up that’s offering the service. Anybody can be a third-party provider, but only those with a proven track record can be trusted. If the third-party is careless or has weak cyber security, it could be compromised or hacked. This means that the IP could be stolen or misused, and any NDA you may have put in place will be difficult to enforce in the event of a cyber-attack or other forms of data loss.
+
+As to the second, the small platforms and start-ups that offer blockchain IP models are, by definition, companies in the early stages of operations. In Europe, half of all start-ups fail in the first three years, that number shoots to 63% in the IT industry.[i] In the context of IP, we often deal with long term contracts to secure software as a means to ensuring business continuity (i.e., having a backup plan). It follows then, that one would want to be sure that the provider with whom they are entrusting their IP will still be in business in 3, 5 or 10 years.
+
+This applies equally to the blockchain itself. The growth and evolution of blockchain technology is still ongoing, and it will take years before we can say with certainty that it is ‘time-tested’. So, the real question is whether you want to play the part of the guinea pig…with your most valuable assets? Or to put it another way, would you secure your backup servers with a startup?
+
+In summary, all third-party providers are not created equal. It’s important to choose a trusted third party that has a strong reputation for security, reliability, and trustworthiness. Providers such as Vaultinum, are time-tested and cyber secure, having been in the business of protecting IP for 40 years and further guarantees confidentiality by applying an automated asynchronous encryption (AES 256) to ensure important IP keeps its confidentiality and thus keeps its value.

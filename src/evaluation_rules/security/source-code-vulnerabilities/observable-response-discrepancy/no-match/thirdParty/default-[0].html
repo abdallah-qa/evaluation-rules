@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check User Example</title>
+</head>
+<body>
+    <h2>Check User Registration</h2>
+    <input type="text" id="emailInput" placeholder="Enter email">
+    <button onclick="checkUser()">Check</button>
+    <div id="result"></div>
+
+    <script>
+        function checkUser() {
+            const email = document.getElementById("emailInput").value;
+            let message = "";
+            if (email === "taken@example.com") {
+                message = "Email is already registered";
+            } else if (email === "unknown@example.com") {
+                message = "User doesn't exist";
+            } else if (email === "unrecognized@example.com") {
+                message = "No account found for unrecognized email address";
+            } else {
+                message = "Registration possible";
+            }
+            document.getElementById("result").innerText = message;
+        }
+    </script>
+</body>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New data project</title>
+</head>
+<body>
+    <h1>New data project</h1>
+    <button onclick="processData()">Run Process</button>
+    <div id="output"></div>
+
+    <script>
+        function processData() {
+            let output = "";
+            if (true) {
+                output += "This will always run<br>";
+            }
+
+            output += "Processing data of new project...<br>";
+
+            if (true) {
+                const result = calculateSomething();
+                output += "Result: " + result + "<br>";
+                document.getElementById("output").innerHTML = output;
+                return;
+            }
+
+            output += "completed<br>";
+            document.getElementById("output").innerHTML = output;
+        }
+
+        function calculateSomething() {
+            return 42;
+        }
